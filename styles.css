@@ -1,0 +1,250 @@
+body {
+    font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header, .elementary, .main-nav, .nav-links, .nav-collapse-more-first, .login-register-links, .nav-collapse-more-second, .nav-collapse-more-second-item, .secondary-nav, footer, .first-footer-box, .second-footer-box, .third-footer-box, .third-footer-box-links, .copyright {
+    display: flex;
+}
+
+header {
+    flex-direction: column;
+    padding: 1rem 0 0;
+}
+
+.elementary {
+    justify-content: space-between;
+}
+
+.fa-music {
+    font-size: 2rem;
+    margin: 0 1.5rem;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-item a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.nav-item .nav-item-more {
+    color: #ff764d;
+}
+
+.login-register {
+    margin-right: 0.25rem;
+}
+
+.login-register-item {
+    margin: 0 0.75rem;
+}
+
+.login-register-item a {
+    color: #000;
+    text-decoration: none;
+    font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.login-register-item .live-for-free {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+.nav-collapse-more {
+    display: none;
+}
+
+h3 {
+    margin: 1.5rem 0 0 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-collapse-more-first {
+    justify-content: start;
+}
+
+.nav-collapse-more-first-link {
+    margin: 1rem 1.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 1rem;
+}
+
+.about-albeton {
+    color: #ff764d;
+}
+
+.nav-collapse-more-second {
+    justify-content: start;
+}
+
+.nav-collapse-more-second-item {
+    flex-direction: column;
+}
+
+.nav-collapse-more-second-item a:first-child {
+    font-weight: bold;
+}
+
+.nav-collapse-more-second-link {
+    margin: 0 1.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.secondary {
+    padding-top: 0.5rem;
+}
+
+.secondary-nav {
+    justify-content: start;
+}
+
+.secondary-nav-item a {
+    margin: 0 1.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+#about {
+    color: #ff764d;
+}
+
+main, .main-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    margin-top: 5rem;
+}
+
+.main-image {
+    align-items: center;
+    width: 80%;
+    height: 430px;
+    background-image: url(https://ableton-production.imgix.net/about/header.jpg?auto=format&fit=crop&fm=jpg&h=168&ixjsv=1.1.3&w=1007);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #ff764d;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 5rem 10rem 0;
+    text-align: justify;
+}
+
+section p {
+    font-size: 1.5rem;
+    margin: 1rem 10rem 5rem;
+    text-align: justify;
+}
+
+.page-middle-images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-images-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 500px;
+}
+
+.main-images-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+    background-color: #FBFFA7;
+}
+
+.main-images-left-left {
+    position: relative;
+    left: 30%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop&h=503&ixjsv=1.1.3&w=503);
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-images-right-right {
+    background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop&h=302&ixjsv=1.1.3&w=403);
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+.first-footer-box, .second-footer-box {
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 3rem 0;
+}
+
+.first-footer-box-first-links-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.social-links a {
+    color: #000;
+}
+
+.social-link {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #00acee;
+}
+
+.fa-youtube-square:hover {
+    color: #FF0000;
+}
+
+.fa-instagram-square:hover {
+    color: #cd486b;
+}
+
+.third-footer-box {
+    justify-content: space-between;
+}
